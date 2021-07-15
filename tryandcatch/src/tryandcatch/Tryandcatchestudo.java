@@ -7,17 +7,17 @@ public class Tryandcatchestudo {
 		try {
 			int[] vetor = new int[4];
 			 
-			System.out.println("Ante do exception");
+			System.out.println("Antes do exception");
 		
 			vetor[4] = 1;
 		
 			System.out.println("Esse texto nao sera impresso");
 		
 		} catch(java.lang.ArrayIndexOutOfBoundsException exception) {
-			System.out.println("exce�ao ao acessar um indice do veotr que nao existe");
+			System.out.println("exceção ao acessar um indice do veotr que não existe");
 			
 		}
-		System.out.println("esse texto sera impresso apos a exception");
+		System.out.println("esse texto sera impresso após a exception");
 	
 	}
 }
